@@ -9,6 +9,9 @@ class Meta {
 	Date completedDate
 	String priority
 	String status
+	User owner
+	
+	static belongsTo = [User]
 	
 	static constraints = {
 	 name(blank:false)

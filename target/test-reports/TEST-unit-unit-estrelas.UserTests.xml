@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="PC-Xoan" name="estrelas.UserTests" tests="1" time="0.036" timestamp="2013-09-03T17:11:33">
+  <properties />
+  <testcase classname="estrelas.UserTests" name="testSomething" time="0.035" />
+  <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+  <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+</testsuite>

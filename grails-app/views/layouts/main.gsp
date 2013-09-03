@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
 <!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
 <!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
@@ -18,11 +18,30 @@
 		<r:layoutResources />
 	</head>
 	<body>
-		<div id="grailsLogo" role="banner"><a href="http://grails.org"><img src="${resource(dir: 'images', file: 'grails_logo.png')}" alt="Grails"/></a></div>
-		<g:layoutBody/>
-		<div class="footer" role="contentinfo"></div>
-		<div id="spinner" class="spinner" style="display:none;"><g:message code="spinner.alt" default="Loading&hellip;"/></div>
-		<g:javascript library="application"/>
+	<div id="page">
+		<div id="spinner" class="spinner" style="display: none;">
+			<g:message code="spinner.alt" default="Loading&hellip;" />
+		</div>
+		<g:javascript library="application" />
 		<r:layoutResources />
-	</body>
+		
+		<div id="topbar">
+			<g:render template="/common/topbar" />
+		</div>
+		<div id="header">
+			<h1>Estrelas</h1>
+		</div>
+		<div id="content">
+			<g:layoutBody />
+		</div>
+		<div id="sidebar">
+			<g:render template="/common/buddies" />
+		</div>
+
+		<div id="footer">
+			<g:render template="/common/footer" />
+		</div>
+	</div>
+
+</body>
 </html>

@@ -58,3 +58,11 @@
 	<g:datePicker name="dueDate" precision="day"  value="${metaInstance?.dueDate}" default="none" noSelection="['': '']" />
 </div>
 
+<div class="fieldcontain ${hasErrors(bean: metaInstance, field: 'owner', 'error')} required">
+	<label for="owner">
+		<g:message code="meta.owner.label" default="Owner" />
+		<span class="required-indicator">*</span>
+	</label>
+	<g:select id="owner" name="owner.id" from="${estrelas.User.list()}" optionKey="id" required="" value="${metaInstance?.owner?.id}" class="many-to-one"/>
+</div>
+

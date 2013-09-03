@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Mountain" name="estrelas.MetaControllerTests" tests="1" time="0.13" timestamp="2013-09-03T12:16:16">
+<testsuite errors="0" failures="0" hostname="PC-Xoan" name="estrelas.MetaControllerTests" tests="1" time="0.155" timestamp="2013-09-03T17:11:32">
   <properties />
-  <testcase classname="estrelas.MetaControllerTests" name="testSomething" time="0.127" />
+  <testcase classname="estrelas.MetaControllerTests" name="testSomething" time="0.102" />
   <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
   <system-err><![CDATA[--Output from testSomething--
